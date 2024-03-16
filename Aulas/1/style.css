@@ -1,0 +1,39 @@
+@charset "UTF8";
+
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #0FC2C0, #0CABA8);
+}
+
+main{
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 10px 0px 10px 0px #033130a8;
+}
+
+h1{
+    color: #023535;
+    text-align: center;}
+
+h2{
+    color: #015958;
+}
+
+p{
+    text-align: justify;
+}
+
+/*
+
+shorthand- condensar varios styles em uma linha só
+
+font: font-style > font-weight > font-size > font-family
+Nessa ordem
+
+*/

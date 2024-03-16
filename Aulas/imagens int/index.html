@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+</head>
+<body>
+    <p>Tente abrir esse site em dispositivos diferentes</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/p.png" type="image/png"> <!-- com a mesma tag, criando sempre acima, a imagem vai mudar para outra menor, e pode fazer assim sucessivamente.-->
+        <source media="(max-width: 1000px)" srcset="imagens/m.png" type="image/png"> <!--com a tag source media type cria uma largura minima que trocara para a imagem menor-->
+        <img src="imagens/g.png" alt="imagem flexivel"> <!-- carrega a primeira imagem maior-->
+    </picture>
+</body>
+</html>

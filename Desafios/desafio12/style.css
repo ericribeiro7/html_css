@@ -1,0 +1,59 @@
+.sriracha-regular {
+    font-family: "Sriracha", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.passion-one-regular {
+    font-family: "Passion One", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+    font-style: normal;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+    height: 200px;
+}
+
+header > h5{
+    color: #fff;
+    text-align: center;
+}
+
+strong{
+    color: #ffffff61;
+}
+
+#sec1{
+    background-color: #fff;
+    height: 500px;
+}
+
+.box{
+    height: 250px;
+    width: 250px;
+    background-color: rgba(112, 14, 14, 0.113);
+    align-items: center;
+    display: flex;
+}
+
+#sec2{
+    background-image: url(imagens/background001.jpg);
+    width: 100%;
+    background-color: #fff;
+    height: 500px;
+}
+
+#sec3{
+    background-color: #fff;
+    height: 500px;
+}

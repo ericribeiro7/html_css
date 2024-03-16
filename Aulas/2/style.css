@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'love';
+    src: url('love larry.ttf') format('truetype');
+    font-weight: normal;
+    font-size: normal;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-family: 'love', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
