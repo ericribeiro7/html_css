@@ -6,17 +6,22 @@
     <title>Teste</title>
     <style>
         body{
-            height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center center;
-            background-repeat: repeat;
+            background-repeat: repeat; <!--repetir ou nao repetir a imagem de fundo
+            background-size: cover;
+            background-attachment: fixed; <!--fixa a imagem de fundo para nao se mover
+            shorthand background : color > image > repeat > [size] > atachment
+            exemplo: */
+            height: 100vh; /* 100% da parte branca */
+            background: black url(imagens/wallpaper002.jpg) center center repeat fixed;
             background-size: cover;
         }
 
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid black;
@@ -71,7 +76,7 @@
                                                             obcaecati, totam architecto voluptatem aspernatur quia, nobis dolore dolorem.</p>
                                                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                                                                 Consequatur corrupti aliquid accusantium nemo distinctio fuga eligendi autem saepe et eius magnam, 
-                                                                obcaecati, totam architecto voluptatem aspernatur quia, nobis dolore dolorem.</p>100vh<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                                                obcaecati, totam architecto voluptatem aspernatur quia, nobis dolore dolorem.</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                                                                     Consequatur corrupti aliquid accusantium nemo distinctio fuga eligendi autem saepe et eius magnam, 
                                                                     obcaecati, totam architecto voluptatem aspernatur quia, nobis dolore dolorem.</p>
                                                                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
