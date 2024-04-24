@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas2</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        thead, tfoot{
+            background-color: gray;
+            color: #fff;
+        }
+
+        tbody > tr:nth-child(2n){
+            background-color: gray;
+            color: #fff;
+        }
+
+        td, th{
+            border: 1px solid #000;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>USO DE TABELAS GRANDES</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>44 411 238</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>20 539 989</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>16 055 174</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>14 141 626</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td>11 882 965</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th>
+                    Total de Habitantes
+                </th>
+                <td>107.030.992</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
